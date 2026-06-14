@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "premiere-pro": {
+      "command": "node",
+      "args": ["${workspaceFolder}/premiere-pro-mcp/dist/index.js"],
+      "env": {
+        "PREMIERE_TEMP_DIR": "${userHome}/AppData/Local/Temp/premiere-mcp-bridge"
+      }
+    }
+  }
+}

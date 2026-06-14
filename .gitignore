@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Source maps
+*.js.map
+*.d.ts.map
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Premiere MCP bridge runtime files
+*.jsx.response.json
+premiere-bridge/
+
+# Test coverage
+coverage/
+
+# Cursor local state (keep mcp.json tracked)
+.cursor/*.log
